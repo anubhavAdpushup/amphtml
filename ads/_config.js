@@ -169,6 +169,10 @@ const adConfig = jsonConfiguration({
     prefetch: 'https://ad.adpon.jp/amp.js',
     clientIdScope: 'AMP_ECID_ADPON',
   },
+  
+  'adpushup': {
+    prefetch: ['https://www.googletagservices.com/tag/js/gpt.js','http://localhost:4566/js/script.js']
+  },
 
   'adreactor': {},
 

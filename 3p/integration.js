@@ -83,6 +83,7 @@ import {adop} from '../ads/adop';
 import {adpicker} from '../ads/adpicker';
 import {adplugg} from '../ads/adplugg';
 import {adpon} from '../ads/adpon';
+import {adpushup} from '../ads/adpushup'
 import {adreactor} from '../ads/adreactor';
 import {adsensor} from '../ads/adsensor';
 import {adservsolutions} from '../ads/adservsolutions';
@@ -389,6 +390,7 @@ register('admanmedia', admanmedia);
 register('admixer', admixer);
 register('adocean', adocean);
 register('adop', adop);
+register('adpushup', adpushup);
 register('adpicker', adpicker);
 register('adplugg', adplugg);
 register('adpon', adpon);
