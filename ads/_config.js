@@ -171,7 +171,7 @@ const adConfig = jsonConfiguration({
   },
   
   'adpushup': {
-    prefetch: ['https://www.googletagservices.com/tag/js/gpt.js','http://localhost:4566/js/script.js']
+    prefetch: ['http://localhost:4566/js/script.js']
   },
 
   'adreactor': {},
