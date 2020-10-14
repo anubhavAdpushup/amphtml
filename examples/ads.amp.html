@@ -49,6 +49,9 @@
       margin: 18px auto;
       padding: 0;
     }
+    amp-ad[type="adpushup"] {
+        border: 3px solid #000;
+    }
   </style>
   <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
@@ -617,28 +620,23 @@
   <h2>Adpushup</h2>
   <amp-ad width="300" height="250"
           type="adpushup"
-          data-slot="/100885613/21831418216"
-          data-totalAmpSlots="3">
+          data-siteid="40218"
+          data-slotpath="/100885613/TEST_AMP_COMPONENT_ADUNIT"
+          data-totalAmpSlots="4">
   </amp-ad>
   <h2>Adpushup</h2>
   <amp-ad width="300" height="250"
           type="adpushup"
-          data-slot="/100885613/21831418216"
-          data-totalampslots="3">
+          data-siteid="40218"
+          data-slotpath="/100885613/TEST_AMP_COMPONENT_ADUNIT_2"
+          data-totalAmpSlots="4">
   </amp-ad>
   <h2>Adpushup</h2>
   <amp-ad width="300" height="250"
           type="adpushup"
-          data-slot="/100885613/21831418216"
-          data-totalAmpSlots="3">
-  </amp-ad>
-  
-  <h2>AdReactor</h2>
-  <amp-ad width="728" height="90"
-      type="adreactor"
-      data-pid=790
-      data-zid=9
-      data-custom3="No Type">
+          data-siteid="40218"
+          data-slotpath="/100885613/21931224901"
+          data-totalAmpSlots="4">
   </amp-ad>
 
   <h2>AdSense</h2>
@@ -1135,40 +1133,13 @@
       data-mpo="ampTest"
       data-mpt="amp-amp-all-all">
   </amp-ad>
-
-  <h2>Doubleclick</h2>
-  <amp-ad width="320" height="50"
-      type="doubleclick"
-      data-slot="/4119129/mobile_ad_banner">
-  </amp-ad>
-
-  <h2>Doubleclick with JSON based parameters</h2>
-  <amp-ad width="320" height="50"
-      type="doubleclick"
-      data-slot="/4119129/mobile_ad_banner"
-      json='{"targeting":{"sport":["rugby","cricket"]},"categoryExclusions":["health"],"tagForChildDirectedTreatment":0}'>
-  </amp-ad>
-
-  <h2>Doubleclick no ad</h2>
-  <amp-ad width="300" height="200"
-      type="doubleclick"
-      data-slot="/4119129/doesnt-exist">
-  </amp-ad>
-
-  <h2>Doubleclick with overriden size</h2>
-  <amp-ad width="420" height="100"
-      data-override-width="320" data-override-height="50"
-      type="doubleclick"
-      data-slot="/4119129/mobile_ad_banner"
-      class="red">
-  </amp-ad>
-
-  <h2>Doubleclick challenging ad</h2>
-  <amp-ad width="414" height="457"
-      type="doubleclick"
-      layout="fixed"
-      data-slot="/35096353/amptesting/badvideoad">
-  </amp-ad>
+  
+  <amp-ad width="336" height="280" type="doubleclick" data-enable-refresh="30" data-slot="/103512698/22098869093" rtc-config='{
+	"urls": [
+	  "https://amp.adpushup.com/prebidserver/openrtb2/amp?tag_id=40792:0f94e765-02d7-492a-973f-6ccb7003756f&curl=CANONICAL_URL&gdpr_consent=CONSENT_STRING"
+	]
+}' json='{"targeting":{"adpushup_ran":"1","fluid":"1","da":"adx","refreshrate":"30"}}'>
+</amp-ad>
 
   <h2>DynAd</h2>
   <amp-ad width="300" height="250"
@@ -1281,19 +1252,7 @@
       data-parameters="age=99&isMobile&gender=male">
   </amp-ad>
 
-  <h2>Freestar</h2>
-  <amp-ad width="320" height="50"
-          data-block-on-consent
-          type="doubleclick"
-          data-slot="/15184186/headphonereview_300x250_320x50"
-          json='{"targeting":{"hb_format": "banner"}}'
-          rtc-config='{
-            "vendors": {
-              "freestar": {"TAG_ID": "rubicon_headphone_review_test"}
-              },
-              "sendRegardlessOfConsentState": true,
-            "timeoutMillis": 2500}'>
-  </amp-ad>
+  
 
   <h2>FreeWheel</h2>
   <amp-ad width="300" height="150"
@@ -2520,21 +2479,7 @@
       data-block-id="152431">
   </amp-ad>
 
-  <h2>Yieldbot</h2>
-  <amp-ad width="300" height="250"
-      type="doubleclick"
-      rtc-config='{
-        "vendors": {
-          "yieldbot": {
-            "YB_PSN": "1234",
-            "YB_SLOT": "medrec"
-          }
-        }
-      }'
-      data-slot="/2476204/medium-rectangle"
-      data-multi-size="300x220,300x200"
-      json='{"targeting":{"category":["food","lifestyle"]},"categoryExclusions":["health"]}'>
-  </amp-ad>
+  
 
   <h2>YIELD ONE</h2>
   <amp-ad width="320" height="50"
