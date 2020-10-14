@@ -171,7 +171,9 @@ const adConfig = jsonConfiguration({
   },
   
   'adpushup': {
-    prefetch: ['http://localhost:4566/js/script.js']
+    renderStartImplemented : true,
+    prefetch: ['http://localhost:7777/js/script.js'],
+    clientIdScope: 'amp_adpushup'
   },
 
   'adreactor': {},
